@@ -12,7 +12,7 @@ void print(char** arr, int from, int to, int inArr) {
 }
 int main() {
 	//comment2
-	char* arr[100] = {
+	char* arr[20] = {
 	"//comment1",
 	"#include <unistd.h>",
 	"#include <string.h>",
@@ -27,7 +27,7 @@ int main() {
 	"}",
 	"int main() {",
 	"	//comment2",
-	"	char* arr[100] = {",
+	"	char* arr[20] = {",
 	"	};",
 	"	print(arr, 0, 14, 0);",
 	"	print(arr, 0, 19, 1);",
