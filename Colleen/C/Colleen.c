@@ -1,4 +1,6 @@
-//comment1
+/*
+	miau 1
+*/
 #include <unistd.h>
 #include <string.h>
 void print(char** arr, int from, int to, int inArr) {
@@ -11,9 +13,13 @@ void print(char** arr, int from, int to, int inArr) {
 	}
 }
 int main() {
-	//comment2
-	char* arr[20] = {
-	"//comment1",
+	/*
+		miau 2
+	*/
+	char* arr[24] = {
+	"/*",
+	"	miau 1",
+	"*/",
 	"#include <unistd.h>",
 	"#include <string.h>",
 	"void print(char** arr, int from, int to, int inArr) {",
@@ -26,15 +32,17 @@ int main() {
 	"	}",
 	"}",
 	"int main() {",
-	"	//comment2",
-	"	char* arr[20] = {",
+	"	/*",
+	"		miau 2",
+	"	*/",
+	"	char* arr[24] = {",
 	"	};",
-	"	print(arr, 0, 14, 0);",
-	"	print(arr, 0, 19, 1);",
-	"	print(arr, 15, 19, 0);",
+	"	print(arr, 0, 18, 0);",
+	"	print(arr, 0, 23, 1);",
+	"	print(arr, 19, 23, 0);",
 	"}",
 	};
-	print(arr, 0, 14, 0);
-	print(arr, 0, 19, 1);
-	print(arr, 15, 19, 0);
+	print(arr, 0, 18, 0);
+	print(arr, 0, 23, 1);
+	print(arr, 19, 23, 0);
 }
