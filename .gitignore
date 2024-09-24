@@ -1,7 +1,4 @@
 *.o
-Colleen/C/Colleen
-Colleen/ASM/Colleen
-Grace/C/Grace
-Grace/ASM/Grace
-Sully/C/Sully
-Sully/ASM/Sully
+Colleen/Colleen
+Grace/Grace
+Sully/Sully
